@@ -1,38 +1,33 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  background: #FFF
 }
 
 .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  /* max-width: 1500px; */
 }
 
 .navbar-logo {
-  color: #fff;
+  color: #4f687d;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
+  font-size: 1.75rem;
+  margin-left: 32px; 
+  font-size: 25px;
 }
 
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
+.right-side {
+  display: flex; 
+  align-items: center; 
+  margin-right: 32px;
+  font-size: 25px; 
 }
+
 
 .nav-menu {
   display: grid;
@@ -50,7 +45,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #4f687d;
   display: flex;
   align-items: center;
   text-decoration: none;

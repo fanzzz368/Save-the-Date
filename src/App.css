@@ -6,8 +6,8 @@
 }
 
 .home,
-.services,
-.products,
+.pastTrips,
+.trips,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,8 +16,8 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/images/img-2.jpg');
+.pastTrips {
+  background-image: url('/images/FERRIS.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,17 +25,18 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/images/img-1.jpg');
+.trips {
+  background-image: url('/images/FERRIS.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
+
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  background-image: url('/images/dog.jfif');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
